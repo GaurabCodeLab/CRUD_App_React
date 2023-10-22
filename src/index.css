@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.header{
+    margin-top: 2vmax;
+    display: flex;
+    justify-content: space-between;
+}
