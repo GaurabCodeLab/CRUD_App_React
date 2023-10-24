@@ -7,7 +7,7 @@ function App(){
   return(
     <>
     <Routes>
-      <Route path="/" element={<Create/>} />
+      <Route path="/CRUD_App_React" element={<Create/>} />
       <Route path="/read" element={<Read/>}/>
       <Route path="/update/:id" element={<Update/>}/>
       <Route path="*" element={<h1>Page Not Found</h1>}/>
