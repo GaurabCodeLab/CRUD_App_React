@@ -9,8 +9,8 @@ function App(){
     <>
     <Routes>
       <Route path="/CRUD_App_React" element={<Create/>} />
-      <Route path="/read" element={<Read/>} />
-      <Route path="/update/:id" element={<Update/>} />
+      <Route path="/CRUD_App_React/read" element={<Read/>} />
+      <Route path="/CRUD_App_React/update/:id" element={<Update/>} />
       <Route path="*" element={<h1 className='text-center mt-4'>Page Not Found</h1>} />
     </Routes>
     </>
