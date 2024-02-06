@@ -52,7 +52,7 @@ function handleEdit(id){
 </div>
         <div className="d-flex justify-content-between mt-3">
         <h1>Read Operation</h1>
-        <Link to="/"><button type="button" className="btn btn-info">Create</button></Link>
+        <Link to="/CRUD_App_React"><button type="button" className="btn btn-info">Create</button></Link>
         </div>
         <table className={dark?"table table-striped table-dark" : "table table-striped table-light"}>
   <thead>
